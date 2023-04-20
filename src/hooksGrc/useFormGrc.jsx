@@ -13,9 +13,14 @@ export const useFormGrc = (initialForm={}) => {
        })
     }
 
+    const OnResetForm = () => {
+        setFormState(initialForm)
+    }
+
     return {
         ...formState,
         formState,
         onInputChange,
+        OnResetForm,
     }
 }

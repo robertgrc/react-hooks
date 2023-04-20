@@ -4,7 +4,7 @@ import { useFormGrc } from '../hooksGrc/useFormGrc'
 
 export const FormWithCustomHook = () => {
 
-const { formState, onInputChange, username, email, password } = useFormGrc({
+const { formState, onInputChange, username, email, password, OnResetForm } = useFormGrc({
   username: '',
   email: "",
   password: ""
@@ -40,6 +40,7 @@ const { formState, onInputChange, username, email, password } = useFormGrc({
                 value={ password }
                 onChange={ onInputChange }
                 />
+        <button onClick={OnResetForm} className='btn btn-primary mt-2'>Borrar</button>
        
     </>
   )
