@@ -13,13 +13,20 @@ import ReactDOM from 'react-dom/client';
 // import { Memorize } from './06-memos/Memorize';
 // import { MemoHook } from './06-memos/MemoHook';
 // import { CallbackHook } from './06-memos/CallbackHook';
-import { Padre } from './07-tarea-memo/Padre';
+// import { Padre } from './07-tarea-memo/Padre';
 
 
 import './index.css'
+import { FormWithCustomHook } from './02-useEffectGrc/FormWithCustomHook';
+//import { SimpleFormGrc } from './02-useEffectGrc/SimpleForm';
+//import TablaCalendarioReservas from './TablaCalendarioReservas/TablaCalendarioReservas';
+//import { CounterWithCustomHook } from './01-useStateGrc/CounterWithCustomHook';
+// import { CounterApp } from './01-useStateGrc/CounterApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <Padre />
+  <>
+    <FormWithCustomHook />
+  </>
   // </React.StrictMode>
 )
