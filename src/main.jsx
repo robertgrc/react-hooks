@@ -17,7 +17,10 @@ import ReactDOM from 'react-dom/client';
 
 
 import './index.css'
-import { FormWithCustomHook } from './02-useEffectGrc/FormWithCustomHook';
+import { Memorize } from './06-memosGrc/Memorize';
+//import { Layout } from './05-useLayoutEffectGrc/Layout';
+//import { FocusScreen } from './04-useRefGrc/FocusScreen';
+//import { FormWithCustomHook } from './02-useEffectGrc/FormWithCustomHook';
 //import { SimpleFormGrc } from './02-useEffectGrc/SimpleForm';
 //import TablaCalendarioReservas from './TablaCalendarioReservas/TablaCalendarioReservas';
 //import { CounterWithCustomHook } from './01-useStateGrc/CounterWithCustomHook';
@@ -26,7 +29,7 @@ import { FormWithCustomHook } from './02-useEffectGrc/FormWithCustomHook';
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <>
-    <FormWithCustomHook />
+    <Memorize />
   </>
   // </React.StrictMode>
 )
